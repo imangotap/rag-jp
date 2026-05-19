@@ -390,7 +390,7 @@ def chat(request:ChatRequest):
     return {
         "query"  :request.query,
         "answer" :answer_text,
-        "sources":[chunk["metadata"] for chunk in chunks],
+        "sources":[chunk["metadata"] for chunk in reranked],
         "history":updated_history,
     }
 
