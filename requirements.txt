@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+chromadb
+sentence-transformers
+ollama
+rank-bm25
+FlagEmbedding
+janome
+pypdf
+pydantic
